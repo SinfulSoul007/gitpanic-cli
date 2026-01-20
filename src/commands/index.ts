@@ -1,0 +1,13 @@
+export { undoCommit } from './undoCommit.js';
+export { fixMessage } from './fixMessage.js';
+export { addFiles } from './addFiles.js';
+export { squashCommits } from './squash.js';
+export { recoverBranch } from './recoverBranch.js';
+export { stashOperations } from './stash.js';
+export { abortOperation } from './abort.js';
+export { unstageFiles } from './unstage.js';
+export { discardChanges } from './discard.js';
+export { cleanUntracked } from './clean.js';
+export { recoverFile } from './recoverFile.js';
+export { showStatus } from './status.js';
+export { showHistory, undoLastAction } from './history.js';
